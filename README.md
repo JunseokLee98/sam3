@@ -67,8 +67,11 @@ This breakthrough is driven by an innovative data engine that has automatically 
 ### Prerequisites
 
 - Python 3.12 or higher
-- PyTorch 2.7 or higher
-- CUDA-compatible GPU with CUDA 12.6 or higher
+- PyTorch 2.5.1 or higher
+- CUDA-compatible GPU with CUDA 12.1
+
+The author provided environmental setup compatible with CUDA 12.6.
+This fork is for CUDA 12.1 setup.
 
 1. **Create a new Conda environment:**
 
@@ -81,7 +84,7 @@ conda activate sam3
 2. **Install PyTorch with CUDA support:**
 
 ```bash
-pip install torch==2.10.0 torchvision --index-url https://download.pytorch.org/whl/cu128
+pip install torch==2.10.0 torchvision --index-url https://download.pytorch.org/whl/cu121
 ```
 
 3. **Clone the repository and install the package:**
